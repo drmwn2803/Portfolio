@@ -123,18 +123,18 @@
       </div>
         </div>
       <div class="col">
-        <form class="contact-form">
+        <form class="contact-form" onsubmit="onFormSubmit(event)">
           <div class="mb-3">
             <label for="inp_email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="inp_email" placeholder="example@email.com">
+            <input type="email" class="form-control" id="inp_email" placeholder="example@email.com" required>
           </div>
           <div class="mb-3">
             <label for="inp_subject" class="form-label">Subject</label>
-            <input type="password" class="form-control" id="inp_subject" placeholder="Your Subject">
+            <input type="text" class="form-control" id="inp_subject" placeholder="Your Subject" required>
           </div>
           <div class="mb-3">
-            <label for="inp_massage" class="form-label">massage</label>
-            <input type="password" class="form-control" id="inp_massage" placeholder="Your Massage">
+            <label for="inp_message" class="form-label">message</label>
+            <input type="text" class="form-control" id="inp_message" placeholder="Your Massage" required>
           </div>
           <div class="d-flex justify-content-center mt-5">
           <button type="submit" class="btn button">Submit</button>
