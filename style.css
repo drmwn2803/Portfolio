@@ -26,6 +26,7 @@ section::before {
     color: white;
 }
 
+
 #header {
     margin: 0;
     /* animation: flash 1s infinite; */
@@ -71,6 +72,8 @@ section::before {
 
 .home img {
     width: 100%;
+    border-radius: 100%;
+    border: 50px;
 }
 
 .home .arrow img {
